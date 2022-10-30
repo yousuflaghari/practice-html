@@ -1,0 +1,112 @@
+<style>
+	.column {
+		display: flex;
+		flex-direction: column;
+	}
+	.row {
+		display: flex;
+		flex-direction: row;
+	}
+
+	h1 {
+		display:flex;
+		align-items:center;
+	}
+
+	p {
+		font-size:30px;
+		text-align:center;
+	}
+
+	h2 {
+		font-family:arial;
+		font-size:70px;
+		text-align:center;
+	}
+
+	 button {
+		 margin-left:40px;
+		 font-size:20px;
+		 margin-right:1px;
+		 background-color: green;
+		 color: white;
+		 border: scope;
+		 height:100px;
+		 width:100px;
+		 cursor:pointer;
+		 border-radius:15px;
+		 transition:opacity 1s;
+		 background-position:12px;]
+		 box-shadow:10px 10px 10px rgba(0 0 0 0.15);
+	}
+
+	.red {
+		background-color:red;
+	}
+
+	.yellow {
+		background-color:yellow;
+	 }
+
+	.blue{
+		background-color:blue;
+	 }
+	.black{
+		background-color:black;
+	 }
+
+	.green{
+		background-color:green;
+	 }
+	.pink{
+		background-color:pink;
+	}
+	 button:hover{
+		opacity:0.4;
+	}
+	
+	button:active
+	  {
+	 background-color:red;
+	 }
+	 .span-example{
+	 color:red;
+	 margin-left:22px;
+	 }
+	 .span-example:hover{
+	 text-decoration:underline;
+	 cursor:pointer;
+	 
+	 }
+</style>
+<script>
+	function printWarning() {
+		window.alert("Button clicked")
+	}
+</script>
+<HTML>
+	<body>
+		<div>
+			<h1>FAISAL MART</h1>
+			<p> propriter</p>
+			<h2>Muhammad yousuf</h2>
+		</div>
+		<p>
+		shop early for the <strong> best selection </strong>of <u>holiday </u>favourites.<span class="span-example">shop now</span>
+		</p>
+		<div class="row">
+			<div class="column">
+				<button class="blue">drinks</button> 
+				<button class="blue">general</button>
+				<button class ="green">stationery</button>
+			</div>
+			 <button onclick="printWarning()" class="blue">general</button>
+			 <button class="blue">lays</button> 
+			 <button class="green">general</button>
+			 <button class="blue">grocery</button>
+			 <button class="blue">general</button>
+			 <button class="green">karakery</button>
+		</div>
+		 <input>
+	</body>
+</html> 
